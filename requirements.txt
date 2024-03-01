@@ -1,0 +1,7 @@
+
+speechRecognition
+pywhatkit
+pyjokes
+pyttsx3
+wikipedia
+pyaudio
