@@ -24,18 +24,18 @@ This is a Python-based personal assistant program that can perform various tasks
 1. Clone the repository to your local machine:
 
 ## Commands
--**Open [Website Name]**: Open a specific website from the predefined list.
--**Search [Query]**: Search the web for a specific query.
--**How are you**: Get a response from the assistant about its well-being.
--**Time**: Get the current time.
--**Today's Date**: Get today's date.
--**Date Tomorrow**: Get tomorrow's date.
--**Date Yesterday**: Get yesterday's date.
--**Send a Message**: Send a WhatsApp message to a contact.
--**Play [Song Name]**: Play a song on YouTube.
--**Joke**: Get a random joke from the assistant.
--**Get Info of [Topic]**: Get information about a specific topic from Wikipedia.
--**I am fine**: Receive a response from the assistant acknowledging the user's well-being.
+- **Open [Website Name]**: Open a specific website from the predefined list.
+- **Search [Query]**: Search the web for a specific query.
+- **How are you**: Get a response from the assistant about its well-being.
+- **Time**: Get the current time.
+- **Today's Date**: Get today's date.
+- **Date Tomorrow**: Get tomorrow's date.
+- **Date Yesterday**: Get yesterday's date.
+- **Send a Message**: Send a WhatsApp message to a contact.
+- **Play [Song Name]**: Play a song on YouTube.
+- **Joke**: Get a random joke from the assistant.
+- **Get Info of [Topic]**: Get information about a specific topic from Wikipedia.
+- **I am fine**: Receive a response from the assistant acknowledging the user's well-being.
 
 ## Contributing
 Contributions are welcome! If you have any ideas for new features or improvements, feel free to open an issue or submit a pull request.
