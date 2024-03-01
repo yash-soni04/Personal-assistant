@@ -16,44 +16,40 @@ This is a Python-based personal assistant program that can perform various tasks
 
 ## Requirements
 
-- Python 3.10.X
+- Python 3.10
 - Libraries: pyttsx3, speech_recognition, pywhatkit, wikipedia, pyjokes
 
 ## Usage
 
 1. Clone the repository to your local machine:
 
-```bash
-git clone https://github.com/yash-soni04/personal-assistant.git
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the program:
-bash
-Copy code
-python main.py
-Speak commands to interact with the assistant.
-Commands
-Open [Website Name]: Open a specific website from the predefined list.
-Search [Query]: Search the web for a specific query.
-How are you: Get a response from the assistant about its well-being.
-Time: Get the current time.
-Today's Date: Get today's date.
-Date Tomorrow: Get tomorrow's date.
-Send a Message: Send a WhatsApp message to a contact.
-Play [Song Name]: Play a song on YouTube.
-Joke: Get a random joke from the assistant.
-Get Info of [Topic]: Get information about a specific topic from Wikipedia.
+## Commands
+-**Open [Website Name]**: Open a specific website from the predefined list.
+-**Search [Query]**: Search the web for a specific query.
+-**How are you**: Get a response from the assistant about its well-being.
+-**Time**: Get the current time.
+-**Today's Date**: Get today's date.
+-**Date Tomorrow**: Get tomorrow's date.
+-**Date Yesterday**: Get yesterday's date.
+-**Send a Message**: Send a WhatsApp message to a contact.
+-**Play [Song Name]**: Play a song on YouTube.
+-**Joke**: Get a random joke from the assistant.
+-**Get Info of [Topic]**: Get information about a specific topic from Wikipedia.
+-**I am fine**: Receive a response from the assistant acknowledging the user's well-being.
 
 ## Contributing
 Contributions are welcome! If you have any ideas for new features or improvements, feel free to open an issue or submit a pull request.
 
-## Acknowledgements
-Thanks to pyttsx3 for the text-to-speech functionality.
-Thanks to speech_recognition for speech recognition.
-Thanks to pywhatkit for sending WhatsApp messages and playing songs.
-Thanks to wikipedia for retrieving information from Wikipedia.
-Thanks to pyjokes for providing jokes.
 ## Contact
 For any inquiries or issues, please contact iamyashsoni@gmail.com.
+
+
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+python assistant.py
+
