@@ -1,28 +1,59 @@
+# Personal Assistant
 
-Python Virtual Assistant
-This repository contains code for a virtual assistant built with Python libraries:
+This is a Python-based personal assistant program that can perform various tasks such as opening websites, searching the web, sending messages, playing music, telling jokes, getting information from Wikipedia, and more. The assistant utilizes speech recognition and text-to-speech capabilities to interact with the user.
 
-speechRecognition: Enables voice command recognition.
-pywhatkit: Allows for sending automated messages (use responsibly).
-pyjokes: Provides a collection of jokes for entertainment.
-pyttsx3: Converts text to speech for verbal responses.
-wikipedia: Integrates access to Wikipedia's knowledge base.
-pyaudio: Facilitates audio input and output for real-time speech recognition and text-to-speech.
-Features:
+## Features
 
-Respond to spoken commands.
-Send automated messages (use responsibly and ethically, following the terms of service and avoiding spam).
-Tell jokes.
-Speak its responses using text-to-speech.
-Access information from Wikipedia.
-Getting Started:
+- **Voice Interaction:** Users can interact with the assistant using voice commands.
+- **Open Websites:** The assistant can open various websites based on user commands.
+- **Search the Web:** Users can search the web using specific keywords.
+- **Send Messages:** Send WhatsApp messages to contacts.
+- **Play Music:** Play any song on YouTube.
+- **Tell Jokes:** The assistant can tell jokes to entertain the user.
+- **Get Information:** Retrieve information on any topic from Wikipedia.
+- **Get Date and Time:** Get the current date, time, tomorrow's date, and yesterday's date.
+- **Exit the Program:** The user can exit the assistant at any time.
 
-Install dependencies: Run pip install speech_recognition pywhatkit pyjokes pyttsx3 wikipedia pyaudio in your terminal.
-Clone this repository: Use git clone https://github.com/<your_username>/<repository_name>.git to clone the repository locally.
-Run the script: Execute the main script (e.g., main.py) to start the virtual assistant.
-Additional Notes:
+## Requirements
 
-Responsible usage of pywhatkit is highly emphasized. Avoid spamming and follow their terms of service.
-Refer to the script code for specific usage instructions.
-Consider creating a virtual environment for managing dependencies.
-Feel free to contribute or customize this project to suit your needs!
+- Python 3.10.X
+- Libraries: pyttsx3, speech_recognition, pywhatkit, wikipedia, pyjokes
+
+## Usage
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yash-soni04/personal-assistant.git
+Install the required dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Run the program:
+bash
+Copy code
+python main.py
+Speak commands to interact with the assistant.
+Commands
+Open [Website Name]: Open a specific website from the predefined list.
+Search [Query]: Search the web for a specific query.
+How are you: Get a response from the assistant about its well-being.
+Time: Get the current time.
+Today's Date: Get today's date.
+Date Tomorrow: Get tomorrow's date.
+Send a Message: Send a WhatsApp message to a contact.
+Play [Song Name]: Play a song on YouTube.
+Joke: Get a random joke from the assistant.
+Get Info of [Topic]: Get information about a specific topic from Wikipedia.
+
+## Contributing
+Contributions are welcome! If you have any ideas for new features or improvements, feel free to open an issue or submit a pull request.
+
+## Acknowledgements
+Thanks to pyttsx3 for the text-to-speech functionality.
+Thanks to speech_recognition for speech recognition.
+Thanks to pywhatkit for sending WhatsApp messages and playing songs.
+Thanks to wikipedia for retrieving information from Wikipedia.
+Thanks to pyjokes for providing jokes.
+## Contact
+For any inquiries or issues, please contact iamyashsoni@gmail.com.
