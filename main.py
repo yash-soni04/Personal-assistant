@@ -1,4 +1,3 @@
-
 import speech_recognition as sr
 import webbrowser
 import datetime
@@ -33,13 +32,22 @@ def takeCommand():
         
         except Exception as e:
             return "Error Occurred. Sorry."
+def time_command():
+    time=time.strftime(("%H"))
+    if time>=4  and time<12:
+        output="Good Morning"
+    elif time>=12 and time<18:
+        output="Good Afternoon"
+    else:
+        output="Good Evening"
+    return output
 
 if __name__ == "__main__":
-    print("Jai Shree Ram Iam Your Assistant")
-    speak("Jai Shree Raam I am Your Assistant")
+    output=time_command()
+    print(f"{output}Iam Your Assistant")
+    speak(f"{output}I am Your Assistant")
         
     while True:
-
         print("Listening")
         query = takeCommand()
         print(f"User Said: {query}")
@@ -231,8 +239,8 @@ if __name__ == "__main__":
 #  function to tell you a joke
         if 'Joke'.lower() in query.lower():
             joke = pyjokes.get_joke()
-            print(joke, "He he Ha ha He he Ha ha He he")
-            speak(f"{joke} he he ha ha he he ha ha he he")
+            print(joke)
+            speak(joke)
 
 # function to get info of any topic from wiki
         if 'get info of'.lower() in query.lower():
@@ -246,9 +254,6 @@ if __name__ == "__main__":
             print(response)
             speak(response)
         
-        if "Ram Ram".lower() in query.lower():
-            print("Ram Ram Bhai Saryane")
-            speak("Ram Ram Bhai Saryane")
 
 
 
